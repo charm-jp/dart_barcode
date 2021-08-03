@@ -129,8 +129,8 @@ void drawBarcodeBytes(
           image,
           (x + elem.left).round(),
           (y + elem.top).round(),
-          (x + elem.right).round(),
-          (y + elem.bottom).round(),
+          (x + elem.right).round() - 1,
+          (y + elem.bottom).round() - 1,
           color,
         );
       }
